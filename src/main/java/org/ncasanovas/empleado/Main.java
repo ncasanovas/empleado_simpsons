@@ -13,8 +13,8 @@ public class Main {
 
         Empleado empleadoBueno = obtenerEmpleado(empleadoTablaDBBueno);
 
-        System.out.println("Nombre del empleado: " + empleadoBueno.getNombre());
-        System.out.println("Apellido del empleado: " + empleadoBueno.getApellido());
+        System.out.println("Nombre del empleado bueno: " + empleadoBueno.getNombre());
+        System.out.println("Apellido del empleado bueno: " + empleadoBueno.getApellido());
 
 
         //Empleado Malo
@@ -28,8 +28,8 @@ public class Main {
         Empleado empleadoMalo = obtenerEmpleado(empleadoTablaDBMalo);
 
 
-        System.out.println("Nombre del empleado: " + empleadoMalo.getNombre());
-        System.out.println("Apellido del empleado: " + empleadoMalo.getApellido());
+        System.out.println("Nombre del empleado malo: " + empleadoMalo.getNombre());
+        System.out.println("Apellido del empleado malo: " + empleadoMalo.getApellido());
 
 
         //Empleado Nuevo
@@ -41,9 +41,8 @@ public class Main {
 
         Empleado empleadoNuevo = obtenerEmpleado(empleadoTablaDBNuevo);
 
-        System.out.println("Nombre del empleado: " + empleadoNuevo.getNombre());
-        System.out.println("Apellido del empleado: " + empleadoNuevo.getApellido());
-
+        System.out.println("Nombre del empleado nuevo: " + empleadoNuevo.getNombre());
+        System.out.println("Apellido del empleado nuevo: " + empleadoNuevo.getApellido());
 
     }
 
